@@ -1,5 +1,6 @@
 **Glass Transition Predictor**
 
+<div align="justify">
 The glass transition temperature is the temperature at which the polymer structure turns from a hard and brittle "glassy" state to a “viscous liquid or rubbery" state. Machine models were developed for predicting polymer properties using cheminformatics tools such as RDkit, and PaDEL descriptors. Polymer monomer descriptors and molecular fingerprints were generated using three methods 1) Morgan fingerprint 2)Additional descriptors(21 descriptors using RDkit) and 3)PaDEL descriptors. RMSE values of the Random forest regression models.
 
 Morgan fingerprints - 36.44  
@@ -12,3 +13,4 @@ Additional descriptors model performed better than morgan fingerprint and slight
 Further optimization studies showed Light GBM regression model gave the best results with descriptor data generated using PaDEl descriptors. The prepared model predicted the glass transition temperature with an RMSE of 24.95.
 
 With a few samples (352 samples) machine learning model could predict the glass transition temperature with great accuracy (24.95). This RMSE is in the range of differences in glass transition temperature determined using different experimental techniques such as DMA and DSC at different test conditions. This study shows that machine learning tools are very promising for polymer property prediction. This also indicates that machine learning tools could be used for faster compound development and optimization by combining the cheminformatics tools and machine learning models with available data. 
+</div>
